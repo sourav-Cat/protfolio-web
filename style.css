@@ -31,6 +31,10 @@ nav{
 .dark-2{
     color: #474747;
 }
+.dark-3
+{
+    color:#757575;
+}
 .nav-title{
     font-size:  90px;
     font-weight: 800;
@@ -135,10 +139,41 @@ color:#181818;
 .item-description{
     font-weight: 700;
 }
+ /* skill section  */
 
 
+.skills-container{
+    display: flex;
+    gap: 25px;
+}
+.text-center{
+    text-align: center;
+}
 
+.skill
+{
+    padding: 30px;
+    box-shadow:0px 6px 50px 0px rgba(0,0,0,.16);
+}
+/* resume */
+.resume-container{
+    display: flex;
+    gap: 25px;
+    
 
+}
+
+.experience-description , .experience-sub-title
+{
+  color: #757575;
+}
+.experience-sub-title
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+ 
 
 
 
